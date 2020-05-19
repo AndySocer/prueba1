@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+:root{
+	--azul: #41c1fe;
+	--fondooscuro: #383838;
+    --fondogris: #f3f3f3;
+    --titulos: #3c3838;
+    --subtitulo: #888585;
+    --textogeneral: #898989;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: transparent !important;
+}
+#hero{
+    background-image: url( "../img/slider1_slide2.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    padding: 18% 0;
+}
+#hero h1{
+    font-family: 'Oswald';
+    font-size: 85px;
+    color: #fff;
+    font-weight: 700;
+}
+#hero h3{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: var(--textogeneral);
+    font-weight: 400; 
+}
+.btn-default-azul{
+    text-transform: uppercase;
+    background-color:var(--azul);  
+    color: #fff;
+    border-radius: 50px;
+    padding: 20px 49px;
+    font-weight: 700;
+}
+.btn-default-blanco{
+    text-transform: uppercase;
+    background-color:#fff;  
+    color: var(--azul);
+    border-radius: 50px;
+    padding: 20px 49px;
+    font-weight: 700;
+}
+.btn-default-trans{
+    border: 1px solid var(--subtitulo);
+    border-radius: 30px;
+    padding: 7px 20px !important; 
+}
+.btn-default-azul:hover{  
+    text-transform: uppercase;
+    background-color:#fff;  
+    color: var(--azul);
+    border-radius: 50px;
+    padding: 20px 49px;
+    font-weight: 700;
+}
+.btn-default-blanco:hover{  
+    text-transform: uppercase;
+    background-color:var(--azul);  
+    color: #fff;
+    border-radius: 50px;
+    padding: 20px 49px;
+    font-weight: 700;
+}
+#navbar .btn-default-azul{
+    text-transform: uppercase;
+    background-color:var(--azul);  
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 45px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+#navbar .btn-default-azul:hover{
+    background-color: #fff;
+    color: var(--azul);
+}
+.botones{
+    padding-top: 100px;
+}
+#hero .btn-default-azul{
+    margin-right: 10px;
+}
+#running{
+    background-color: var(--fondogris);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mens-run{
+    background-image: url("../img/men-running.jpg");
+    background-repeat: no-repeat;
+	background-position: top center;
+    padding: 100px 90px;
+}
+.woman-run{
+    background-image: url("../img/women-runnig.jpg");
+    background-repeat: no-repeat;
+	background-position: top center;
+    padding: 100px 90px;
+}
+.sales{
+    background-color: var(--azul);
+    padding: 100px 90px;
+    width: 100px;
+    height: 328px;
+}
+.sub-blanco{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    align-content: center;
+    width: 100%;
+}
+.titulo{
+    font-size: 50px;
+    color: var(--titulos);
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+.texto-general{
+    font-family: 'Montserrat';
+    font-size: 11px;
+    color: var(--textogeneral);
+    font-weight: 300;
+}
+#features{
+    background-color: var(--fondogris);
+    padding-bottom: 100px;
+}
+.productos{
+    background-color: #fff;
+}
+.titulo-prod{
+    font-weight: 500;
+}
+.precio{
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--subtitulo);
+}
+.productos .btn-default-azul{
+    font-size: 12px;
+    padding: 8px 23px !important;
+    margin-bottom: 30px;
+}
+#features article{
+    margin: 10px 15px;
+}
+#shoes{
+    background-image:url("../img/bg_action.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+    padding: 160px;
+}
+.sub-blanco span{
+    color: var(--azul);
+}
+#shoes .texto-general{
+    font-size: 13px;
+    width: 70%;
+}
+#shoes .precio{
+    font-family: 'Oswald';
+    color: var(--azul);
+}
+#shoes .btn-default-azul{
+    font-size: 12px;
+    padding: 8px 23px !important;
+    margin-bottom: 30px;
+}
+#shoes .btn-default-blanco{
+    font-size: 12px;
+    padding: 8px 23px !important;
+    margin-bottom: 30px;
+}
+#run{
+    background-color: var(--fondogris);
+    padding-top: 60px;
+}
+#run .sub-blanco{
+    font-size: 20px;
+    width: 90%;
+    padding: 290px 5px 50px !important;
+}
+.right{
+    background-image: url( "../img/service-1-370x330.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+}
+.spring{
+     background-image: url( "../img/service-2-1170x658.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+}
+.myths{
+    background-image: url( "../img/service-3-1170x658.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+}
+#new-products{
+    background-color: var(--fondogris);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: #383838;
+    padding-bottom: 5px;
+}
+
+footer img {
+    padding: 50px 0px 0px 150px;
+}
+
+footer p {
+    color: var(--subtitulo);
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
